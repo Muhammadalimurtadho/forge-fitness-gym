@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Forge Fitness | Forge Your Strength</title>
+  <!-- Fonts: Bebas Neue for bold headlines, Oswald for structured text. NO generic Inter/Roboto. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome 6 for icons (No emoji) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">FORGE<span class="logo__accent">FITNESS</span></a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="#schedule" class="nav__link">Schedule</a></li>
+          <li><a href="#gallery" class="nav__link">The Forge</a></li>
+          <li><a href="#pricing" class="nav__link">Membership</a></li>
+          <li><a href="#testimonials" class="nav__link">Results</a></li>
+        </ul>
+      </nav>
+      <a href="#cta-footer" class="btn btn--outline btn--header-cta">Book Free Trial</a>
+      <button class="hamburger" aria-label="Menu" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero: Split layout, NO center blob, NO generic double button pattern -->
+    <section class="hero" id="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <h1 class="hero__title">DON'T JUST<br>WORK OUT.<br><span class="text-accent">FORGE</span> YOURSELF.</h1>
+          <p class="hero__subtitle">Raw, high-energy training for professionals who demand progress. Zero intimidation, pure iron.</p>
+          <div class="hero__actions">
+            <a href="#cta-footer" class="btn btn--primary">Start Your Free Trial <i class="fas fa-arrow-right"></i></a>
+            <a href="#pricing" class="btn btn--link">See Membership <i class="fas fa-angle-down"></i></a>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <img src="https://images.pexels.com/photos/1756959/pexels-photo-1756959.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Athlete training with battle ropes, high energy, gritty filter" class="hero__img">
+          <div class="hero__stat">
+            <span class="hero__stat-number">98%</span>
+            <span class="hero__stat-label">Member Consistency</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Class Schedule: Industrial table style, clear and easy to read -->
+    <section class="schedule section-dark" id="schedule">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">CLASS SCHEDULE <span class="text-accent">//</span></h2>
+          <p class="section-desc">Find your slot. Forge your routine. No excuses.</p>
+        </div>
+        <div class="schedule__table-wrapper">
+          <table class="schedule__table">
+            <thead>
+              <tr><th>Time</th><th>MON</th><th>TUE</th><th>WED</th><th>THU</th><th>FRI</th><th>SAT</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>06:00 AM</td><td>HIIT <span>45m</span></td><td>Strength <span>60m</span></td><td>HIIT <span>45m</span></td><td>Strength <span>60m</span></td><td>Boxing <span>60m</span></td><td>Open Gym</td></tr>
+              <tr><td>12:00 PM</td><td>Lunch Burn <span>30m</span></td><td>---</td><td>Lunch Burn <span>30m</span></td><td>---</td><td>Mobility <span>45m</span></td><td>Team WOD <span>60m</span></td></tr>
+              <tr><td>05:30 PM</td><td>Power Hour <span>60m</span></td><td>Boxing <span>60m</span></td><td>Power Hour <span>60m</span></td><td>Kettlebell <span>45m</span></td><td>HIIT <span>45m</span></td><td>---</td></tr>
+              <tr><td>07:00 PM</td><td>Yoga Sculpt <span>50m</span></td><td>Open Gym</td><td>Mobility <span>45m</span></td><td>Boxing <span>60m</span></td><td>Strength <span>60m</span></td><td>---</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery: Masonry style with real images from Pexels (gym atmosphere) -->
+    <section class="gallery section-dark" id="gallery">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">THE FORGE <span class="text-accent">//</span></h2>
+          <p class="section-desc">No mirrors, no glam. Just the floor, the iron, and the fire.</p>
+        </div>
+        <div class="gallery__grid">
+          <div class="gallery__item gallery__item--tall">
+            <img src="https://images.pexels.com/photos/949129/pexels-photo-949129.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Man deadlifting heavy barbell">
+          </div>
+          <div class="gallery__item">
+            <img src="https://images.pexels.com/photos/4162449/pexels-photo-4162449.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Group boxing class intense">
+          </div>
+          <div class="gallery__item gallery__item--wide">
+            <img src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Gym interior with ropes and rings">
+          </div>
+          <div class="gallery__item">
+            <img src="https://images.pexels.com/photos/3757954/pexels-photo-3757954.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Woman doing pull ups">
+          </div>
+          <div class="gallery__item">
+            <img src="https://images.pexels.com/photos/6550858/pexels-photo-6550858.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Personal trainer coaching client">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing: Industrial metal-card style comparison -->
+    <section class="pricing section-dark" id="pricing">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">MEMBERSHIP <span class="text-accent">//</span></h2>
+          <p class="section-desc">Choose your iron path. All plans include free fitness assessment.</p>
+        </div>
+        <div class="pricing__grid">
+          <div class="pricing-card">
+            <h3 class="pricing-card__name">STARTER</h3>
+            <p class="pricing-card__price">$89<span>/mo</span></p>
+            <ul class="pricing-card__features">
+              <li><i class="fas fa-check"></i> 8 Classes/Month</li>
+              <li><i class="fas fa-check"></i> Open Gym Access (Off-Peak)</li>
+              <li><i class="fas fa-check"></i> 1 Personal Training Intro</li>
+              <li class="text-muted"><i class="fas fa-times"></i> Nutritional Guide</li>
+            </ul>
+            <a href="#cta-footer" class="btn btn--outline btn--block">Get Started</a>
+          </div>
+          <div class="pricing-card pricing-card--featured">
+            <span class="pricing-card__badge">MOST POPULAR</span>
+            <h3 class="pricing-card__name">FORGE</h3>
+            <p class="pricing-card__price">$149<span>/mo</span></p>
+            <ul class="pricing-card__features">
+              <li><i class="fas fa-check"></i> Unlimited Classes</li>
+              <li><i class="fas fa-check"></i> Full Open Gym</li>
+              <li><i class="fas fa-check"></i> 2 PT Sessions/Month</li>
+              <li><i class="fas fa-check"></i> Nutritional Guide</li>
+            </ul>
+            <a href="#cta-footer" class="btn btn--primary btn--block">Forge Ahead</a>
+          </div>
+          <div class="pricing-card">
+            <h3 class="pricing-card__name">PRIVATE</h3>
+            <p class="pricing-card__price">$249<span>/mo</span></p>
+            <ul class="pricing-card__features">
+              <li><i class="fas fa-check"></i> All Forge Benefits</li>
+              <li><i class="fas fa-check"></i> 4 PT Sessions/Month</li>
+              <li><i class="fas fa-check"></i> Program Design</li>
+              <li><i class="fas fa-check"></i> Priority Booking</li>
+            </ul>
+            <a href="#cta-footer" class="btn btn--outline btn--block">Apply Private</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials: Before-After slider gallery -->
+    <section class="testimonials section-dark" id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">TRANSFORMATIONS <span class="text-accent">//</span></h2>
+          <p class="section-desc">Real members. Real grind. Slide to see the forge effect.</p>
+        </div>
+        <div class="testimonials__slider" id="testimonial-slider">
+          <div class="testimonial-slide active">
+            <div class="ba-comparison">
+              <div class="ba-before"><img src="https://images.pexels.com/photos/3757950/pexels-photo-3757950.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Member before transformation"><span>BEFORE</span></div>
+              <div class="ba-after"><img src="https://images.pexels.com/photos/3757949/pexels-photo-3757949.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Member after transformation"><span>AFTER</span></div>
+            </div>
+            <p class="testimonial-quote">"Dropped 20kg in 6 months. No quick fixes, just the Forge method." <strong>— Alex, 34</strong></p>
+          </div>
+          <div class="testimonial-slide">
+            <div class="ba-comparison">
+              <div class="ba-before"><img src="https://images.pexels.com/photos/3757376/pexels-photo-3757376.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Member before transformation"><span>BEFORE</span></div>
+              <div class="ba-after"><img src="https://images.pexels.com/photos/4162449/pexels-photo-4162449.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Member after transformation"><span>AFTER</span></div>
+            </div>
+            <p class="testimonial-quote">"Finally a place that pushes me without the ego. The trainers are top." <strong>— Sarah, 28</strong></p>
+          </div>
+        </div>
+        <div class="slider-controls">
+          <button id="prev-slide" class="btn btn--icon" aria-label="Previous"><i class="fas fa-arrow-left"></i></button>
+          <button id="next-slide" class="btn btn--icon" aria-label="Next"><i class="fas fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-dark" id="cta-footer">
+    <div class="container footer__grid">
+      <div class="footer__cta">
+        <h2 class="footer__title">READY TO STEP INTO <span class="text-accent">THE FORGE</span>?</h2>
+        <p class="footer__desc">First class is free. No pressure, all progress. Book your trial now.</p>
+        <a href="#" class="btn btn--primary btn--large">BOOK FREE TRIAL CLASS <i class="fas fa-fire"></i></a>
+      </div>
+      <div class="footer__info">
+        <p>📍 12 Iron Street, Industrial District</p>
+        <p>📞 (555) 123-4567</p>
+        <p>✉️ train@forgefitness.com</p>
+        <div class="footer__socials">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2025 Forge Fitness. Forge Your Strength.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
