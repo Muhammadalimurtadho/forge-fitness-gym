@@ -23,11 +23,12 @@ Industrial-style website for a gym & personal training studio. Designed with raw
 - **No AI-generic patterns:** No centered hero blob, no purple gradients, no templated section order
 
 ## File Structure
+```text
 forge-fitness/
 |-- index.html
 |-- style.css
 |-- script.js
-
+```
 
 ## Live Demo
 https://muhammadalimurtadho.github.io/forge-fitness-gym/
