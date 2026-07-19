@@ -24,9 +24,9 @@ Industrial-style website for a gym & personal training studio. Designed with raw
 
 ## File Structure
 forge-fitness/
-├── index.html
-├── style.css
-└── script.js
+|-- index.html
+|-- style.css
+|-- script.js
 
 
 ## Live Demo
