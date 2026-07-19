@@ -33,8 +33,8 @@ forge-fitness/
 ## Live Demo
 https://muhammadalimurtadho.github.io/forge-fitness-gym/
 
-## Demo Video
-[Watch the demo video](./demo.mp4)
+## Demo Preview
+![Forge Fitness Demo](./Demo.gif)
 
 ## Image Credits
 All photos from Pexels -- royalty-free stock.
