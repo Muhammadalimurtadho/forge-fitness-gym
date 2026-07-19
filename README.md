@@ -30,7 +30,7 @@ forge-fitness/
 
 
 ## Live Demo
-https://github.com/Muhammadalimurtadho/forge-fitness-gym/
+https://muhammadalimurtadho.github.io/forge-fitness-gym/
 
 ## Image Credits
 All photos from Pexels -- royalty-free stock.
